@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@mipmap/wall">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/banner"
+    android:layout_marginTop="15dp"
+    />
+
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/baslat"
+        android:id="@+id/btnServis"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Yenile"
+        android:drawableLeft="@drawable/yenile"
+        android:id="@+id/btnYenile"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="#01579B"
+        android:layout_marginTop="15dp"
+        android:autoText="false"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="55dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text=" En son duyurular"
+            android:drawableLeft="@drawable/ic_sailing"
+            android:textColor="#01579B"
+            android:textSize="22dp"
+            android:textStyle="bold|italic"
+
+            />
+
+        <TextView
+            android:id="@+id/line"
+            style="?android:attr/listSeparatorTextViewStyle"
+            android:paddingTop="5dip"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/connect_help"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/ilkText"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:focusable="true"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/ikinciText"
+            android:onClick="onClick"
+            android:clickable="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textColor="@color/white"
+            android:id="@+id/ucuncuText"
+            android:onClick="onClick"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>

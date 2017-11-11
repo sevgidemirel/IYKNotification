@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Istanbul Yelken</string>
+    <string name="baslat">  Bildirim Aç   </string>
+    <string name="durdur">Bildirim Kapat</string>
+</resources>
